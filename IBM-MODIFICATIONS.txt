@@ -1,0 +1,6 @@
+Fix bb10 notification to escape backslash only once
+
+- Cordova RTC work item number: 57236
+- Apache Cordova Jira issue: http://issues.apache.org/jira/browse/CB-8038
+- Worklight RTC work item number: 56315
+- Full description: in the bb10 source for the plugin, backslashes were getting escaped unnecessarily a second time
